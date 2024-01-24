@@ -48,7 +48,6 @@ function App() {
             return val.name == name
               ? {
                   name: val.name,
-                  name: val.name,
                   country: val.country,
                   age: val.age,
                   position: val.position,
