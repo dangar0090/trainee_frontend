@@ -45,7 +45,7 @@ function App() {
       (response) => {
         setEmployeeList(
           employeeList.map((val) => {
-            return val.name == name
+            return val.name === name
               ? {
                   name: val.name,
                   country: val.country,
